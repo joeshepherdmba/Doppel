@@ -391,6 +391,13 @@ namespace Doppel.Api.Controllers
             return Ok();
         }
 
+        /// <summary>
+        /// Assigns a specified role to the identified user 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="rolesToAssign"></param>
+        /// <returns>ok</returns>
+        /// <remarks>Failed</remarks>
         [Authorize(Roles = "Admin")]
         [Route("user/{id:guid}/roles")]
         [HttpPut]

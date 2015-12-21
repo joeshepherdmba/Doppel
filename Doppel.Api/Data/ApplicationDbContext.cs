@@ -2,6 +2,7 @@
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
@@ -9,6 +10,9 @@ namespace Doppel.Api.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<ReferenceItem> ReferenceItems { get; set; }
+        public DbSet<Share> Shares { get; set; }
+
         public ApplicationDbContext()
             : base("Doppel", throwIfV1Schema: false)
         {

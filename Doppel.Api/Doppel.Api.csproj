@@ -34,6 +34,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -236,6 +238,7 @@
     <Compile Include="BindingModels\RemoveLoginBindingModel.cs" />
     <Compile Include="BindingModels\RoleReturnModel.cs" />
     <Compile Include="BindingModels\SetPasswordBindingModel.cs" />
+    <Compile Include="BindingModels\TokenBindingModel.cs" />
     <Compile Include="BindingModels\UserReturnModel.cs" />
     <Compile Include="BindingModels\UsersInRoleBindingModel.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -258,6 +261,8 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\ReferenceItem.cs" />
+    <Compile Include="Models\Share.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Providers\ExtendedClaimsProvider.cs" />
