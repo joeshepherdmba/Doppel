@@ -26,7 +26,7 @@ namespace Doppel.Api.Controllers
     [RoutePrefix("api/Account")]
     public class AccountController : BaseApiController
     {
-        private const string LocalLoginProvider = "Local"; 
+        private const string LocalLoginProvider = "Local";
 
         [Authorize(Roles = "Admin")]
         [Route("users")]
