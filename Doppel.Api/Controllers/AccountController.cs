@@ -507,7 +507,7 @@ namespace Doppel.Api.Controllers
 
             if (!ModelState.IsValid) 
             {
-                return BadRequest(ModelState);
+                return BadRequest(ModelState); 
             }
 
             var appUser = await this.AppUserManager.FindByIdAsync(id);
