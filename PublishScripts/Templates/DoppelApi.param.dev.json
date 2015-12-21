@@ -1,0 +1,32 @@
+{
+  "siteName": {
+    "value": "Doppel"
+  },
+  "hostingPlanName": {
+    "value": "Doppel"
+  },
+  "siteLocation": {
+    "value": "East US"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "serverName": {
+    "value": "ozyna8g6xd"
+  },
+  "serverLocation": {
+    "value": "East US"
+  },
+  "administratorLogin": {
+    "value": "jshepherdmba"
+  },
+  "administratorLoginPassword": {
+    "value": "Melissa1"
+  },
+  "databaseName": {
+    "value": "Doppel_db"
+  }
+}

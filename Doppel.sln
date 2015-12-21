@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doppel.Api", "Doppel.Api\Doppel.Api.csproj", "{EB508429-B946-4984-9DB7-5416BB15B28E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{19A07D19-2371-4A10-81F1-F1C7A27681DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{38CA9B77-F2FC-4E44-8A7B-20EAB30AF56B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{B1AE0AB1-CF5A-41CF-B9D0-76C5095A6E9D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\DoppelApi.json = PublishScripts\Templates\DoppelApi.json
+		PublishScripts\Templates\DoppelApi.param.dev.json = PublishScripts\Templates\DoppelApi.param.dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB508429-B946-4984-9DB7-5416BB15B28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB508429-B946-4984-9DB7-5416BB15B28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB508429-B946-4984-9DB7-5416BB15B28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB508429-B946-4984-9DB7-5416BB15B28E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38CA9B77-F2FC-4E44-8A7B-20EAB30AF56B} = {19A07D19-2371-4A10-81F1-F1C7A27681DF}
+		{B1AE0AB1-CF5A-41CF-B9D0-76C5095A6E9D} = {19A07D19-2371-4A10-81F1-F1C7A27681DF}
+	EndGlobalSection
+EndGlobal
